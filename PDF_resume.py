@@ -168,7 +168,7 @@ def _generate_summary(sentences, sentenceValue, threshold):
     return summary
 
 
-# Incluir el documento en PDF
+# Incluir el documento en PDF'
 # --------------------------------------------------------------------
 
 def resume_pdfs(documento, alpha):
@@ -247,8 +247,8 @@ def resume_pdfs(documento, alpha):
     return summary
 
 def main():
-    resume_pdfs(input('Introduce la ruta del archivo PDF:'),
-                input('Introduce un parámetro entre 0,8-1,5'))
+    resume_pdfs(input('Introduce la ruta del archivo PDF: '),
+               float(input('Introduce un parámetro entre 0,8-1,5: ')))
     
 if __name__ == '__main__':
     main()
